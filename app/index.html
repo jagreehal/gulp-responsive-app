@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Socket Shopper</title>
+    <meta name="viewport" content="width=device-width">
+    <!-- build:css styles/style.css -->
+    <link rel="stylesheet" href="styles/style.css"/>
+    <!-- endbuild -->
+    <script>
+        window.grunticon = function(e){
+            if(e && 3 === e.length){
+                var t = window, n = ! (! t.document.createElementNS || ! t.document.createElementNS("http://www.w3.org/2000/svg", "svg").createSVGRect || ! document.implementation.hasFeature("http://www.w3.org/TR/SVG11/feature#Image", "1.1") || window.opera && - 1 === navigator.userAgent.indexOf("Chrome")), r = function(r){
+                    var i = t.document.createElement("link"), s = t.document.getElementsByTagName("script")[0];
+                    i.rel = "stylesheet", i.href = e[r && n ? 0 : r ? 1 : 2].match(/href="([^"]*)/)[1], s.parentNode.insertBefore(i, s)
+                }, i = new t.Image;
+                i.onerror = function(){
+                    r(! 1)
+                }, i.onload = function(){
+                    r(1 === i.width && 1 === i.height)
+                }, i.src = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw=="
+            }
+        };
+        grunticon(['<link rel="stylesheet" href="styles/icons/icons.data.svg.css">', '<link rel="stylesheet" href="styles/icons/icons.data.png.css">', '<link rel="stylesheet" href="styles/icons/icons.fallback.css">'])
+    </script>
+</head>
+<body>
+<div class="row site-title">
+    <header class="col-1"><h1 class="icon-lightning">Socket Shopper</h1></header>
+</div>
+<div class="product">
+<div class="row">
+    <header class="header col-1">
+        <h1 class="name">Supergirl T-shirt</h1>
+    </header>
+    <div class="row">
+        <div class="images col-1 col-m-1-of-2">
+            <figure class="image col-1">
+                <span data-picture data-alt="Supergirl T-shirt">
+                  <span data-src="images/products/main/P1-main1-small.jpg"></span>
+                  <span data-src="images/products/main/P1-main1-medium.jpg"
+                        data-media="(min-width: 768px)"></span>
+                  <span data-src="images/products/main/P1-main1-large.jpg"
+                        data-media="(min-width: 960px)"></span>
+                  <noscript><img src="images/products/main/P1-main1-small.jpg" alt="Supergirl T-shirt">
+                  </noscript>
+                </span>
+            </figure>
+            <ul class="thumbnails col-1">
+                <li><a href="#"><img src="images/blank.gif"
+                                     data-echo="images/products/thumbnails/P1-thumb1.jpg"></a>
+                </li>
+                <li><a href="#"><img src="images/blank.gif"
+                                     data-echo="images/products/thumbnails/P1-thumb2.jpg"></a>
+                </li>
+                <li><a href="#"><img src="images/blank.gif"
+                                     data-echo="images/products/thumbnails/P1-thumb3.jpg"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="col-1 col-m-1-of-2">
+            <div class="col-1">
+                <strong class="price">$23</strong>
+
+                <div class="average-review">
+                    <ol class="rating">
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart"></li>
+                    </ol>
+                    <a href="#reviews" class="count">4 Reviews</a>
+                </div>
+            </div>
+            <div class="description col-1">
+                <p>Supergirl is a fictional character, a superhero featuring in comic books published by DC
+                    Comics.</p>
+
+                <p>She was created by writer Otto Binder and designed by artist Al Plastino in 1959. She first
+                    appeared in the Action Comics comic book series and later branched out into animation, film,
+                    television, and merchandising</p>
+            </div>
+            <form method="post" action="#" class="form col-1">
+                <div class="col-1">
+                    <label class="col-1 col-m-1-of-4" for="qty">Qty</label>
+                    <input class="col-1 col-m-3-of-4" name="qty" id="qty" pattern="[0-9]*" value="1" min="1"
+                           max="999"/>
+                </div>
+                <div class="col-1">
+                    <label class="col-1 col-m-1-of-4" for="size">Size</label>
+                    <select class="col-1 col-m-3-of-4" id="size" name="size">
+                        <option value="S">S</option>
+                        <option value="S">M</option>
+                        <option value="S">L</option>
+                        <option value="S">XL</option>
+                    </select>
+                </div>
+                <div class="col-1 button">
+                    <button class="add-to-cart icon-cart" type="submit">ADD TO CART</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+<div class="row related section">
+    <header class="col-1  title">
+        <h2 class="icon-padding icon-gift">Related Products</h2>
+    </header>
+    <ul class="col-1 bg-white">
+        <li><a href="#"><img src="images/blank.gif" data-echo="images/products/thumbnails/P2-block.jpg"/>
+
+            <div><h4>Stripe Top</h4></div>
+        </a></li>
+        <li><a href="#"><img src="images/blank.gif" data-echo="images/products/thumbnails/P3-block.jpg"/>
+
+            <div><h4>Crest Top</h4></div>
+        </a></li>
+        <li><a href="#"><img src="images/blank.gif" data-echo="images/products/thumbnails/P4-block.jpg"/>
+
+            <div><h4>Black Top</h4></div>
+        </a></li>
+        <li><a href="#"><img src="images/blank.gif" data-echo="images/products/thumbnails/P5-block.jpg"/>
+
+            <div><h4>Nice Top</h4></div>
+        </a></li>
+        <li><a href="#"><img src="images/blank.gif" data-echo="images/products/thumbnails/P6-block.jpg"/>
+
+            <div><h4>Triangle Top</h4></div>
+        </a></li>
+        <li><a href="#"><img src="images/blank.gif" data-echo="images/products/thumbnails/P7-block.jpg"/>
+
+            <div><h4>Bored Top</h4></div>
+        </a></li>
+        <li><a href="#"><img src="images/blank.gif" data-echo="images/products/thumbnails/P8-block.jpg"/>
+
+            <div><h4>Ziggy Top</h4></div>
+        </a></li>
+        <li><a href="#"><img src="images/blank.gif" data-echo="images/products/thumbnails/P9-block.jpg"/>
+
+            <div><h4>Red Top</h4></div>
+        </a></li>
+        <li><a href="#"><img src="images/blank.gif" data-echo="images/products/thumbnails/P10-block.jpg"/>
+
+            <div><h4>Lips Top</h4></div>
+        </a></li>
+        <li><a href="#"><img src="images/blank.gif" data-echo="images/products/thumbnails/P11-block.jpg"/>
+
+            <div><h4>Flower Top</h4></div>
+        </a></li>
+    </ul>
+</div>
+<div id="reviews" class="row reviews section">
+    <header class="col-1">
+        <h2 class="icon-padding icon-bubble">Reviews</h2>
+    </header>
+    <ul class="col-no-pad">
+        <li class="col-1 review">
+            <div class="header col-1 col-m-1-of-2 col-l-1-of-3">
+                <img src="images/blank.gif"
+                     data-echo="https://pbs.twimg.com/profile_images/378800000727563176/908ce43507d150df8da0e71d4b4eb1c7_bigger.jpeg"
+                     alt="Commenter Name" class="col-2 col-no-pad">
+
+                <div class="col-2 meta">
+                    <h3>Spiffing</h3>
+                    <ol class="rating">
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart"></li>
+                    </ol>
+                    <h4>Not David Cameron</h4>
+                    <time datetime="2014-01-01" pubdate="">01/01/2014</time>
+                </div>
+            </div>
+            <div class="content col-1 col-m-1-of-2 col-l-2-of-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+        </li>
+        <li class="col-1 review">
+            <div class="header col-1 col-m-1-of-2 col-l-1-of-3">
+
+                <img src="images/blank.gif"
+                     data-echo="https://pbs.twimg.com/profile_images/378800000607588261/dad9f009a228a78a14f1f4bed0c54f76_bigger.png"
+                     alt="Commenter Name" class="col-2 col-no-pad">
+
+                <div class="col-2 meta">
+                    <h3>Awesome</h3>
+                    <ol class="rating">
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart"></li>
+                    </ol>
+                    <h4>Not Barack Obama</h4>
+                    <time datetime="2014-01-01" pubdate="">01/01/2014</time>
+                </div>
+            </div>
+            <div class="content col-1 col-m-1-of-2 col-l-2-of-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+        </li>
+        <li class="col-1 review">
+            <div class="header col-1 col-m-1-of-2 col-l-1-of-3">
+
+                <img src="images/blank.gif"
+                     data-echo="https://pbs.twimg.com/profile_images/1047752972/2010-01-14-angela-merkel_property_poster_bigger.jpg"
+                     alt="Commenter Name" class="col-2 col-no-pad">
+
+                <div class="col-2 meta">
+                    <h3>Efficient</h3>
+                    <ol class="rating">
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart"></li>
+                        <li class="icon-heart"></li>
+                    </ol>
+                    <h4>Not Angela Merkel</h4>
+                    <time datetime="2014-01-01" pubdate="">01/01/2014</time>
+                </div>
+            </div>
+            <div class="content col-1 col-m-1-of-2 col-l-2-of-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+        </li>
+        <li class="col-1 review">
+            <div class="header col-1 col-m-1-of-2 col-l-1-of-3">
+
+                <img src="images/blank.gif"
+                     data-echo="https://pbs.twimg.com/profile_images/418416077970759680/9xCL2MCN_bigger.jpeg"
+                     alt="Commenter Name" class="col-2 col-no-pad">
+
+                <div class="col-2 meta">
+                    <h3>Julie Loves It!</h3>
+                    <ol class="rating">
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart2"></li>
+                        <li class="icon-heart2"></li>
+                    </ol>
+                    <h4>Not Francois Hollande</h4>
+                    <time datetime="2014-01-01" pubdate="">01/01/2014</time>
+                </div>
+            </div>
+            <div class="content col-1 col-m-1-of-2 col-l-2-of-3">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna aliqua.</p>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="row map section">
+    <header class="col-1">
+        <h2 class="icon-padding icon-compass">Find us</h2>
+    </header>
+    <div class="col-1">
+        <button class="col-1" id="show-map-button">SHOW MAP</button>
+    </div>
+    <div id="map-canvas" class="col-1"></div>
+</div>
+<div class="row footer">
+    <footer class="col-1 section-header">
+        Just a demo...
+    </footer>
+</div>
+</div>
+<!-- build:js scripts/main.js -->
+<script src="scripts/main.js"></script>
+<script src="scripts/picturefill.js"></script>
+<script src="scripts/echo.js"></script>
+<!-- endbuild -->
+<script>
+    Echo.init({
+        offset: 100,
+        throttle: 250
+    });
+</script>
+
+</body>
+</html>

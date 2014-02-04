@@ -1,0 +1,21 @@
+@import "core/_breakpoints";
+
+body:after {
+  content: 'No media query';
+  position: fixed;
+  top: 0;
+  right: 0;
+  background: #f00;
+  color: #fff;
+  padding: 0 0.33em;
+
+  @media @bp-s {
+    content: 'small';
+  }
+  @media @bp-m {
+    content: 'medium';
+  }
+  @media @bp-l {
+    content: 'large';
+  }
+}

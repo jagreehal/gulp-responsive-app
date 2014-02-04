@@ -1,0 +1,33 @@
+{
+  "name": "gulp-responsive-app",
+  "version": "0.0.1",
+  "description": "How to build a responsive web app using Gulp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jagreehal/gulp-responsive-app"
+  },
+  "author": "",
+  "license": "BSD",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/jagreehal/gulp-responsive-app/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "~3.5.1",
+    "gulp-autoprefixer": "0.0.6",
+    "gulp-uglify": "~0.2.0",
+    "gulp-imagemin": "~0.1.4",
+    "gulp-clean": "~0.2.4",
+    "gulp-jshint": "~1.3.4",
+    "gulp-less": "~1.2.1",
+    "gulp-concat": "~2.1.7",
+    "gulp-load-plugins": "~0.2.0",
+    "gulp-minify-css": "~0.2.0",
+    "gulp-usemin": "~0.1.3"
+  }
+}
